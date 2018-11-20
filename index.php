@@ -87,7 +87,27 @@
         echo "<br />";
         echo $employees[$i]['gen'];
         echo "<br />";
-        echo $employees[$i]['PC'];
+        echo "<hr />";
+        echo "<br />";
+        echo $employees[$i]['PC']['CPU'];
+        echo "<br />";
+        echo $employees[$i]['PC']['HDD'];
+        echo "<br />";
+        echo $employees[$i]['PC']['RAM'];
+        echo "<br />";
+        echo $employees[$i]['PC']['MB'];
+        echo "<br />";
+        echo $employees[$i]['PC']['Case'];
+        echo "<br />";
+        echo $employees[$i]['PC']['GPU'];
+        echo "<br />";
+        echo $employees[$i]['PC']['DISPLAY'];
+        echo "<br />";
+        echo $employees[$i]['PC']['KB'];
+        echo "<br />";
+        echo $employees[$i]['PC']['MOUSE'];
+        echo "<br />";
+        echo "<br />";
         echo "<br />";
       }
      ?>
