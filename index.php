@@ -87,7 +87,7 @@
         echo "<br />";
         echo $employees[$i]['gen'];
         echo "<br />";
-        echo "<hr />";
+        echo "<hr />";//-----------------------------
         echo "<br />";
         echo $employees[$i]['PC']['CPU'];
         echo "<br />";
